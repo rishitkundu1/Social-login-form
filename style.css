@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+} 
+
+body{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: gray;
+}
+.wrapper{
+      background-color: #fff;
+      padding: 10px 0 0 0;
+      border-radius: 10px;
+      overflow: hidden;
+      transform: scale(1.5);
+}
+.wrapper h2{
+      width: 100%;
+      text-align: center;
+      color: grey;
+}
+.row{
+      display: flex;
+      height: 200px;
+      margin-top: 10px;
+}
+.social-login button{
+      width: 200px;
+      font-size: 15px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      border: none;
+      margin: 10px ;
+      font-weight: bold;
+      cursor: pointer;
+}
+.facebook{
+      background-color: #4370F7;
+      color: white;
+}
+.twitter{
+      background-color: #43D5F7;
+      color: white;
+}
+.google{
+      background-color: #43F74A;
+      color: white;
+}
+.vl{
+      width: 3px;
+      background-color: gray;
+      height: 180px;
+      margin:  0 20px;
+      display: flex;
+      align-items: center;
+}
+.vl-text{
+      width: 50px;
+      height: 23px;
+      background-color: grey;
+      border-radius: 50%;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      margin-left: -20px;
+}
+.manual-login{
+      margin-left: 10px;
+      margin-top: 20px;
+      padding-right: 10px;
+}
+.manual-login input{
+      font-size: 15px;
+      border-radius: 5px;
+      border: none;
+      margin: 10px 0;
+      border: 2px solid grey;
+}
+input[type="email"]{
+      margin-top: -10px;
+}
+.manual-login button{
+      width: 100%;
+      background-color: dodgerblue;
+      color: white;
+      border: none;
+      padding: 5px 0;
+      font-size: 18px;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+}
+.options{
+      display: flex;
+}
+.option{
+      width: 50%;
+      height: 40px;
+      font-size: 15px;
+      color: white;
+      background-color: black;
+      border: none;
+      cursor: pointer;
+      border-radius: 0;
+}
+.option:hover{
+      background-color: rgb(44, 44, 44);
+}
